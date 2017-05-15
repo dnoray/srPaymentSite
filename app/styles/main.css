@@ -1,0 +1,188 @@
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color:#333;
+  line-height:1.4;
+  font-weight:500;
+}
+
+a,a:hover {
+  color:#92DD03 ;
+  text-decoration: none;
+}
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family:'Trebuchet MS', serif;
+    color:#777;
+  font-weight:300;
+  overflow-x:hidden;
+    background: url(../images/sandpaper.png);
+}
+
+a {
+    color: #f05f40;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+a:hover,
+a:focus {
+    color: #dbaf29;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Gotham A", "Gotham B",Arial,sans-serif;
+    font-weight:500;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.7;
+    font-weight: 300;
+}
+/* Removes border when inside `a` element in IE 6/7/8/9 and Firefox 3.
+* Improves image quality when scaled in IE 7. */
+ img { border: 0; /* 1 */
+-ms-interpolation-mode: bicubic; /* 2 */ }
+/* * Corrects overflow displayed oddly in IE 9. */
+svg:not(:root) { overflow: hidden; }
+img {max-width: 100%;}
+
+/* --- Parallax --- */
+
+.parallax {
+  text-align:center;
+  background-position:bottom left;
+  background-repeat:no-repeat;
+  background-size:cover;
+  overflow:hidden;
+    background-image:url(../images/church-bg.jpg);
+}
+.pattern-overlay {
+  background-image:url(../images/pattern.png);
+  background-repeat: repeat;
+}
+.logo-container {
+    height: 420px;
+    padding-top: 60px;
+}
+/* --- Heading --- */
+
+img#site-title {
+  max-width: 350px;
+}
+
+#payment-container {
+    margin-top: -140px;
+}
+#payment-box {
+    margin: 0 auto;
+    max-width: 425px;
+}
+.copyright {display: none;}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    .logo-container {
+        height: 530px;
+        padding-top:100px;
+    }
+    #payment-container {
+        margin-top: -200px;
+    }
+}
+
+@media screen and (min-width:1025px) {
+    .logo-container {
+        height: 600px;
+        padding-top:130px;
+    }
+    #payment-container {
+        margin-top: -200px;
+    }
+}
+
+.btn {
+    position: relative;
+    display: inline-block;
+    outline: none;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-shadow: 0 0 1px rgba(255,255,255,0.3);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.mobile-opt {
+    padding: 80px 0 100px 0;
+}
+.mobile-opt a.btn {
+    margin: 10px;
+    padding: 10px 30px;
+}
+.mobile-opt a.btn small {
+    text-transform: none;
+}
+
+/* --- Footer --- */
+.footer {
+    width: 100%;
+    background-color: #55001f;
+    padding: 60px 0;
+}
+
+.footer p {
+    font-size: 14px;
+    padding-top: 24px;
+    color: #fff;
+}
+
+.footer p a {
+    color: #fff;
+}
+
+ul.social-icons {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.social-icons li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 48px;
+    padding-bottom: 20px;
+}
+
+ul.social-icons li a {
+    color: #fff;
+}
+
+.footer p a:hover,
+.footer p a:focus,
+ul.social-icons li a:hover, 
+ul.social-icons li a:focus {
+    color: #EEC900;
+}
+ul.social-icons li:last-child {
+    margin-right: 0;
+}
